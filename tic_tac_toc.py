@@ -77,8 +77,3 @@ class TicTacToe:
             self.current_player = "O" if self.current_player == "X" else "X"
 
     print("Thanks for playing!")
-
-
-# Play the game with two users
-tic = TicTacToe()
-tic.play_with_users()
